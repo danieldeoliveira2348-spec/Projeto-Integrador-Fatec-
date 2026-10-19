@@ -1,0 +1,83 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0C945510-9C95-CAAC-CDFE-BA4E31E41352" name="T_CLIENTE">
+<createdBy>lucal8162</createdBy>
+<createdTime>2026-10-06 03:05:31 UTC</createdTime>
+<ownerDesignName>Projeto Integrador</ownerDesignName>
+<engineerTo>
+<item key="2BFC8707-7905-AA77-7D08-03392C0AE4F9" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_cliente" id="0BBFD509-34FF-C24A-5405-6243B03B6C00">
+<createdBy>lucal8162</createdBy>
+<createdTime>2026-10-06 03:22:22 UTC</createdTime>
+<ownerDesignName>Projeto Integrador</ownerDesignName>
+<engineerTo>
+<item key="2BFC8707-7905-AA77-7D08-03392C0AE4F9" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_cliente" id="350016C9-BF3A-AEA8-1571-56071A06767B">
+<createdBy>lucal8162</createdBy>
+<createdTime>2026-10-06 03:22:33 UTC</createdTime>
+<ownerDesignName>Projeto Integrador</ownerDesignName>
+<engineerTo>
+<item key="2BFC8707-7905-AA77-7D08-03392C0AE4F9" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_telefone" id="95232D0D-C77E-0497-20E3-3F5AD5B42E24">
+<createdBy>lucal8162</createdBy>
+<createdTime>2026-10-06 03:22:54 UTC</createdTime>
+<ownerDesignName>Projeto Integrador</ownerDesignName>
+<engineerTo>
+<item key="2BFC8707-7905-AA77-7D08-03392C0AE4F9" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_pagamento" id="7AC28B6D-B541-5693-03B0-6D35D60611C6">
+<createdBy>lucal8162</createdBy>
+<createdTime>2026-10-06 03:23:10 UTC</createdTime>
+<ownerDesignName>Projeto Integrador</ownerDesignName>
+<engineerTo>
+<item key="2BFC8707-7905-AA77-7D08-03392C0AE4F9" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_endereco" id="472AA46B-535A-12A5-CFB6-7BC5CEE3A299">
+<createdBy>lucal8162</createdBy>
+<createdTime>2026-10-06 03:23:51 UTC</createdTime>
+<ownerDesignName>Projeto Integrador</ownerDesignName>
+<engineerTo>
+<item key="2BFC8707-7905-AA77-7D08-03392C0AE4F9" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="09E27447-485B-5434-4699-74F33652A0C9" name="T_CLIENTE PK">
+<createdBy>lucal8162</createdBy>
+<createdTime>2026-10-06 03:22:31 UTC</createdTime>
+<ownerDesignName>Projeto Integrador</ownerDesignName>
+<engineerTo>
+<item key="2BFC8707-7905-AA77-7D08-03392C0AE4F9" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>0BBFD509-34FF-C24A-5405-6243B03B6C00</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

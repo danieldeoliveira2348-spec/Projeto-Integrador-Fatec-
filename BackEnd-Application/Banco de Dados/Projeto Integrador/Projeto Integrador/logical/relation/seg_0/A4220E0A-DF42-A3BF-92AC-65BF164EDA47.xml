@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Adminstrar" directorySegmentName="seg_0" id="A4220E0A-DF42-A3BF-92AC-65BF164EDA47">
+<createdBy>lucal8162</createdBy>
+<createdTime>2026-10-06 03:35:12 UTC</createdTime>
+<ownerDesignName>Projeto Integrador</ownerDesignName>
+<engineerTo>
+<item key="2BFC8707-7905-AA77-7D08-03392C0AE4F9" value="true"/>
+</engineerTo>
+<sourcePk>4EB0217A-D115-1985-FF5F-4B58400DE4D7</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>87D54612-39FD-6FCD-5885-E8BC0BED3DBC</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>4122CEBB-DD0A-7B98-D998-DECAFBF5DA50</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
