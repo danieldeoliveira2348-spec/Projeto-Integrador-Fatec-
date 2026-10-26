@@ -45,16 +45,6 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ds_pagamento" id="7AC28B6D-B541-5693-03B0-6D35D60611C6">
-<createdBy>lucal8162</createdBy>
-<createdTime>2026-10-06 03:23:10 UTC</createdTime>
-<ownerDesignName>Projeto Integrador</ownerDesignName>
-<engineerTo>
-<item key="2BFC8707-7905-AA77-7D08-03392C0AE4F9" value="true"/>
-</engineerTo>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="ds_endereco" id="472AA46B-535A-12A5-CFB6-7BC5CEE3A299">
 <createdBy>lucal8162</createdBy>
 <createdTime>2026-10-06 03:23:51 UTC</createdTime>

@@ -39,9 +39,19 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ds_servico" id="2AB4BEAB-D4E3-9915-FA2E-7311595439E5">
+<Attribute name="cd_atendimento" id="D051C6E7-1BBE-ABF7-DA94-F6603F61F9BC">
 <createdBy>lucal8162</createdBy>
-<createdTime>2026-10-06 03:48:19 UTC</createdTime>
+<createdTime>2026-10-26 17:33:57 UTC</createdTime>
+<ownerDesignName>Projeto Integrador</ownerDesignName>
+<engineerTo>
+<item key="2BFC8707-7905-AA77-7D08-03392C0AE4F9" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_servico" id="AE342880-5128-7F1A-2509-BA950714460F">
+<createdBy>lucal8162</createdBy>
+<createdTime>2026-10-26 17:47:09 UTC</createdTime>
 <ownerDesignName>Projeto Integrador</ownerDesignName>
 <engineerTo>
 <item key="2BFC8707-7905-AA77-7D08-03392C0AE4F9" value="true"/>
@@ -59,20 +69,29 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ds_telefone_cliente" id="83BD3E4D-03B1-94A4-FA95-9604EC95B71B">
+<Attribute name="vl_preco" id="6C78D978-2BC6-E0AD-76A9-F2DBD73FB6F0">
 <createdBy>lucal8162</createdBy>
-<createdTime>2026-10-06 03:50:59 UTC</createdTime>
+<createdTime>2026-10-06 03:51:28 UTC</createdTime>
 <ownerDesignName>Projeto Integrador</ownerDesignName>
 <engineerTo>
 <item key="2BFC8707-7905-AA77-7D08-03392C0AE4F9" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="vl_preco" id="6C78D978-2BC6-E0AD-76A9-F2DBD73FB6F0">
+<Attribute name="ds_pagamento" id="9417A635-5807-8978-4F5A-2DA882FED5C3">
 <createdBy>lucal8162</createdBy>
-<createdTime>2026-10-06 03:51:28 UTC</createdTime>
+<createdTime>2026-10-26 17:33:19 UTC</createdTime>
+<ownerDesignName>Projeto Integrador</ownerDesignName>
+<engineerTo>
+<item key="2BFC8707-7905-AA77-7D08-03392C0AE4F9" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="st_status" id="E54FBA6C-EDAB-5AF7-7969-27B429006570">
+<createdBy>lucal8162</createdBy>
+<createdTime>2026-10-26 17:38:35 UTC</createdTime>
 <ownerDesignName>Projeto Integrador</ownerDesignName>
 <engineerTo>
 <item key="2BFC8707-7905-AA77-7D08-03392C0AE4F9" value="true"/>
@@ -91,7 +110,7 @@
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>2AB4BEAB-D4E3-9915-FA2E-7311595439E5</attributeRef>
+<attributeRef>D051C6E7-1BBE-ABF7-DA94-F6603F61F9BC</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>
