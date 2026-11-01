@@ -1,0 +1,172 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="27D30B71-D28B-6466-A130-66A164A230C2" name="T_ATENDIMENTO">
+<createdBy>lucal8162</createdBy>
+<createdTime>2026-10-28 16:57:23 UTC</createdTime>
+<generatorID>2600951F-C57F-67F9-5F06-C4673E820A89</generatorID>
+<ownerDesignName>Projeto Integrador</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="T_BARBEIRO_cd_barbeiro" id="F5E10965-E649-0748-B0E6-7C0D5D96B39F">
+<createdBy>lucal8162</createdBy>
+<createdTime>2026-10-28 16:57:23 UTC</createdTime>
+<generatorID>FA294CD3-AD13-3021-87F1-2D4406967D24</generatorID>
+<ownerDesignName>Projeto Integrador</ownerDesignName>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="96003BCE-7088-5882-0EB8-23F5EC063338" referredColumn="9F471830-042B-9381-0066-599F032C1E02"/>
+</associations>
+</Column>
+<Column name="T_CLIENTE_cd_cliente" id="9174928D-39A0-9E86-6C61-299D76B04649">
+<createdBy>lucal8162</createdBy>
+<createdTime>2026-10-28 16:57:23 UTC</createdTime>
+<generatorID>EF4194C2-2037-CC31-28B2-E49EDA00BDCA</generatorID>
+<ownerDesignName>Projeto Integrador</ownerDesignName>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3572B78C-63BE-5B1F-022A-C0976EAEE6E2" referredColumn="C75A7F85-5ED2-EFF7-3809-25B7F891FF43"/>
+</associations>
+</Column>
+<Column name="cd_atendimento" id="61835FE0-DC14-8009-AEFE-5919F05D8719">
+<createdBy>lucal8162</createdBy>
+<createdTime>2026-10-28 16:57:23 UTC</createdTime>
+<generatorID>D051C6E7-1BBE-ABF7-DA94-F6603F61F9BC</generatorID>
+<ownerDesignName>Projeto Integrador</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_servico" id="80C38A0F-8819-90E0-1637-1F82DCC50FB4">
+<createdBy>lucal8162</createdBy>
+<createdTime>2026-10-28 16:57:23 UTC</createdTime>
+<generatorID>AE342880-5128-7F1A-2509-BA950714460F</generatorID>
+<ownerDesignName>Projeto Integrador</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>300</dataTypeSize>
+<ownDataTypeParameters>300,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_data" id="AAE4312B-D55C-C824-C6E4-FD99137D9393">
+<createdBy>lucal8162</createdBy>
+<createdTime>2026-10-28 16:57:23 UTC</createdTime>
+<generatorID>5AAFC8BB-FB96-2425-3C4F-DC7359C7A094</generatorID>
+<ownerDesignName>Projeto Integrador</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vl_preco" id="03FBEE61-E455-5F50-651B-FAEBEE8ED4AB">
+<createdBy>lucal8162</createdBy>
+<createdTime>2026-10-28 16:57:23 UTC</createdTime>
+<generatorID>6C78D978-2BC6-E0AD-76A9-F2DBD73FB6F0</generatorID>
+<ownerDesignName>Projeto Integrador</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_pagamento" id="0E4BDE91-964B-8F7E-ADDA-C9A4DB7DC1B7">
+<createdBy>lucal8162</createdBy>
+<createdTime>2026-10-28 16:57:23 UTC</createdTime>
+<generatorID>9417A635-5807-8978-4F5A-2DA882FED5C3</generatorID>
+<ownerDesignName>Projeto Integrador</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>3</dataTypeSize>
+<ownDataTypeParameters>3,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="st_status" id="0C238D72-DA39-7495-B5D9-168F9F54DCBE">
+<createdBy>lucal8162</createdBy>
+<createdTime>2026-10-28 16:57:23 UTC</createdTime>
+<generatorID>E54FBA6C-EDAB-5AF7-7969-27B429006570</generatorID>
+<ownerDesignName>Projeto Integrador</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cd_barbeiro" id="E39F376C-854E-9542-955D-099A81485D13">
+<createdBy>lucal8162</createdBy>
+<createdTime>2026-10-28 17:14:42 UTC</createdTime>
+<generatorID>04172EE2-7DD6-8F1E-2E2F-B5A2C22234C6</generatorID>
+<ownerDesignName>Projeto Integrador</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cd_cliente" id="86E4512D-5872-DF48-26E2-5BC758F95E33">
+<createdBy>lucal8162</createdBy>
+<createdTime>2026-10-28 17:14:42 UTC</createdTime>
+<generatorID>4B44501E-5033-E24C-6E3A-FBD8B95CFAA3</generatorID>
+<ownerDesignName>Projeto Integrador</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BA1926A1-81C4-F864-1264-B11940853C13" name="T_ATENDIMENTO_PK">
+<createdBy>lucal8162</createdBy>
+<createdTime>2026-10-28 16:57:23 UTC</createdTime>
+<generatorID>C9B28B08-33AD-5C48-6070-93DE37CC28D7</generatorID>
+<ownerDesignName>Projeto Integrador</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="61835FE0-DC14-8009-AEFE-5919F05D8719"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="00F09FB4-BC96-9B90-3C25-29862888E244" name="T_ATENDIMENTO_T_CLIENTE_FK">
+<createdBy>lucal8162</createdBy>
+<createdTime>2026-10-28 16:57:23 UTC</createdTime>
+<generatorID>65F5F780-E799-6CDD-D6C3-FD1695F322AB</generatorID>
+<ownerDesignName>Projeto Integrador</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9174928D-39A0-9E86-6C61-299D76B04649"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E4F70AF9-CB05-6CAD-3638-215D3DE94A4A" name="T_ATENDIMENTO_T_BARBEIRO_FK">
+<createdBy>lucal8162</createdBy>
+<createdTime>2026-10-28 16:57:23 UTC</createdTime>
+<generatorID>874F46A0-5808-2E64-241E-8FA4C4E1DC80</generatorID>
+<ownerDesignName>Projeto Integrador</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F5E10965-E649-0748-B0E6-7C0D5D96B39F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BF6A465C-6EAA-06DD-06BC-8277D5680855" name="T_BARBEARIA">
+<createdBy>lucal8162</createdBy>
+<createdTime>2026-10-28 16:57:23 UTC</createdTime>
+<generatorID>87D54612-39FD-6FCD-5885-E8BC0BED3DBC</generatorID>
+<ownerDesignName>Projeto Integrador</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_barbearia" id="197F1CAD-D737-C5A8-0E62-B13CEF9EDC29">
+<createdBy>lucal8162</createdBy>
+<createdTime>2026-10-28 16:57:23 UTC</createdTime>
+<generatorID>81C42A78-D280-15D1-94BF-7F65C58D9A93</generatorID>
+<ownerDesignName>Projeto Integrador</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="mn_barbearia" id="0E523358-3E0B-8926-F353-3628B825F6E8">
+<createdBy>lucal8162</createdBy>
+<createdTime>2026-10-28 16:57:23 UTC</createdTime>
+<generatorID>5C5840C5-D2A0-981C-8950-41F380AA5DBE</generatorID>
+<ownerDesignName>Projeto Integrador</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_telefone" id="A565F6C6-5AEE-8E3E-C192-3022E95D1428">
+<createdBy>lucal8162</createdBy>
+<createdTime>2026-10-28 16:57:23 UTC</createdTime>
+<generatorID>EA7AF880-1C17-8F24-9415-7812FD25CE31</generatorID>
+<ownerDesignName>Projeto Integrador</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<ownDataTypeParameters>,11,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_email" id="F637F4C1-90E4-3194-09DB-9264D7081569">
+<createdBy>lucal8162</createdBy>
+<createdTime>2026-10-28 16:57:23 UTC</createdTime>
+<generatorID>4E8A8485-4165-AAB3-F1CF-27A4FCD5E53C</generatorID>
+<ownerDesignName>Projeto Integrador</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_endereco" id="C8D34C11-3FAF-73DD-418B-6088CB943E3C">
+<createdBy>lucal8162</createdBy>
+<createdTime>2026-10-28 16:57:23 UTC</createdTime>
+<generatorID>74397FCF-394C-93B3-E9CC-C4C7B10CF005</generatorID>
+<ownerDesignName>Projeto Integrador</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4CF1F425-A28F-E9E5-7E38-87D4805C3986" name="T_BARBEARIA_PK">
+<createdBy>lucal8162</createdBy>
+<createdTime>2026-10-28 16:57:23 UTC</createdTime>
+<generatorID>4EB0217A-D115-1985-FF5F-4B58400DE4D7</generatorID>
+<ownerDesignName>Projeto Integrador</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="197F1CAD-D737-C5A8-0E62-B13CEF9EDC29"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

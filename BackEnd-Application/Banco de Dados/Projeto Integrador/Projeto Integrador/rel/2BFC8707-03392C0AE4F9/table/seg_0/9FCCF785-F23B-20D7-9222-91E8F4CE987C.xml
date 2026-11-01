@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9FCCF785-F23B-20D7-9222-91E8F4CE987C" name="T_CLIENTE">
+<createdBy>lucal8162</createdBy>
+<createdTime>2026-10-28 16:57:23 UTC</createdTime>
+<generatorID>0C945510-9C95-CAAC-CDFE-BA4E31E41352</generatorID>
+<ownerDesignName>Projeto Integrador</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_cliente" id="C75A7F85-5ED2-EFF7-3809-25B7F891FF43">
+<createdBy>lucal8162</createdBy>
+<createdTime>2026-10-28 16:57:23 UTC</createdTime>
+<generatorID>0BBFD509-34FF-C24A-5405-6243B03B6C00</generatorID>
+<ownerDesignName>Projeto Integrador</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_cliente" id="6503DBB4-1B52-A83D-3091-4C48203DE00D">
+<createdBy>lucal8162</createdBy>
+<createdTime>2026-10-28 16:57:23 UTC</createdTime>
+<generatorID>350016C9-BF3A-AEA8-1571-56071A06767B</generatorID>
+<ownerDesignName>Projeto Integrador</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_telefone" id="2324905D-8B88-554C-4070-CA7687F18BED">
+<createdBy>lucal8162</createdBy>
+<createdTime>2026-10-28 16:57:23 UTC</createdTime>
+<generatorID>95232D0D-C77E-0497-20E3-3F5AD5B42E24</generatorID>
+<ownerDesignName>Projeto Integrador</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<ownDataTypeParameters>,11,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_endereco" id="EC1B45A0-E72D-FB09-313A-78A4C17FCC5C">
+<createdBy>lucal8162</createdBy>
+<createdTime>2026-10-28 16:57:23 UTC</createdTime>
+<generatorID>472AA46B-535A-12A5-CFB6-7BC5CEE3A299</generatorID>
+<ownerDesignName>Projeto Integrador</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="740993B7-5BEA-646B-7F36-5C3CB193A0AB" name="T_CLIENTE_PK">
+<createdBy>lucal8162</createdBy>
+<createdTime>2026-10-28 16:57:23 UTC</createdTime>
+<generatorID>09E27447-485B-5434-4699-74F33652A0C9</generatorID>
+<ownerDesignName>Projeto Integrador</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C75A7F85-5ED2-EFF7-3809-25B7F891FF43"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

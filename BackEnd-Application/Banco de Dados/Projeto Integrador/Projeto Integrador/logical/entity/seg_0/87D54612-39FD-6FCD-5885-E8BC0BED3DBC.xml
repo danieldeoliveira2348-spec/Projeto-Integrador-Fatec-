@@ -22,8 +22,11 @@
 <engineerTo>
 <item key="2BFC8707-7905-AA77-7D08-03392C0AE4F9" value="true"/>
 </engineerTo>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="mn_barbearia" id="5C5840C5-D2A0-981C-8950-41F380AA5DBE">
 <createdBy>lucal8162</createdBy>
@@ -32,8 +35,11 @@
 <engineerTo>
 <item key="2BFC8707-7905-AA77-7D08-03392C0AE4F9" value="true"/>
 </engineerTo>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="ds_telefone" id="EA7AF880-1C17-8F24-9415-7812FD25CE31">
 <createdBy>lucal8162</createdBy>
@@ -42,8 +48,11 @@
 <engineerTo>
 <item key="2BFC8707-7905-AA77-7D08-03392C0AE4F9" value="true"/>
 </engineerTo>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<ownDataTypeParameters>,11,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="ds_email" id="4E8A8485-4165-AAB3-F1CF-27A4FCD5E53C">
 <createdBy>lucal8162</createdBy>
@@ -52,8 +61,11 @@
 <engineerTo>
 <item key="2BFC8707-7905-AA77-7D08-03392C0AE4F9" value="true"/>
 </engineerTo>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="ds_endereco" id="74397FCF-394C-93B3-E9CC-C4C7B10CF005">
 <createdBy>lucal8162</createdBy>
@@ -62,8 +74,11 @@
 <engineerTo>
 <item key="2BFC8707-7905-AA77-7D08-03392C0AE4F9" value="true"/>
 </engineerTo>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
@@ -71,8 +86,9 @@
 <createdBy>lucal8162</createdBy>
 <createdTime>2026-10-06 03:28:08 UTC</createdTime>
 <ownerDesignName>Projeto Integrador</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="2BFC8707-7905-AA77-7D08-03392C0AE4F9" value="true"/>
+<item key="2BFC8707-7905-AA77-7D08-03392C0AE4F9" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

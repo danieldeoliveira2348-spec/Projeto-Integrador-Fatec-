@@ -22,8 +22,11 @@
 <engineerTo>
 <item key="2BFC8707-7905-AA77-7D08-03392C0AE4F9" value="true"/>
 </engineerTo>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="nm_cliente" id="350016C9-BF3A-AEA8-1571-56071A06767B">
 <createdBy>lucal8162</createdBy>
@@ -32,8 +35,11 @@
 <engineerTo>
 <item key="2BFC8707-7905-AA77-7D08-03392C0AE4F9" value="true"/>
 </engineerTo>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="ds_telefone" id="95232D0D-C77E-0497-20E3-3F5AD5B42E24">
 <createdBy>lucal8162</createdBy>
@@ -42,8 +48,11 @@
 <engineerTo>
 <item key="2BFC8707-7905-AA77-7D08-03392C0AE4F9" value="true"/>
 </engineerTo>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<ownDataTypeParameters>,11,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="ds_endereco" id="472AA46B-535A-12A5-CFB6-7BC5CEE3A299">
 <createdBy>lucal8162</createdBy>
@@ -52,8 +61,11 @@
 <engineerTo>
 <item key="2BFC8707-7905-AA77-7D08-03392C0AE4F9" value="true"/>
 </engineerTo>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
@@ -61,8 +73,9 @@
 <createdBy>lucal8162</createdBy>
 <createdTime>2026-10-06 03:22:31 UTC</createdTime>
 <ownerDesignName>Projeto Integrador</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="2BFC8707-7905-AA77-7D08-03392C0AE4F9" value="true"/>
+<item key="2BFC8707-7905-AA77-7D08-03392C0AE4F9" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

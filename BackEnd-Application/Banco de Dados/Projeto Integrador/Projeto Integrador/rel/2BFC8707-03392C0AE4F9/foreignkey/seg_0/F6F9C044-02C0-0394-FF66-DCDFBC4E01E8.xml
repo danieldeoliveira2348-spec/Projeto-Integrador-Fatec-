@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="F6F9C044-02C0-0394-FF66-DCDFBC4E01E8" containerWithKeyObject="A449992F-1010-0987-20B5-996B3A76528C" localFKIndex="D6C6961B-839B-5A32-9B96-9005A2D68AD7" name="T_BARBEIRO_T_BARBEARIA_FK">
+<createdBy>lucal8162</createdBy>
+<createdTime>2026-10-28 16:57:23 UTC</createdTime>
+<generatorID>A4220E0A-DF42-A3BF-92AC-65BF164EDA47</generatorID>
+<ownerDesignName>Projeto Integrador</ownerDesignName>
+<referredTableLongName>T_BARBEARIA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>BF6A465C-6EAA-06DD-06BC-8277D5680855</referredTableID>
+<keyObject>4CF1F425-A28F-E9E5-7E38-87D4805C3986</keyObject>
+<referredKeyID>4CF1F425-A28F-E9E5-7E38-87D4805C3986</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>cd_barbearia</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

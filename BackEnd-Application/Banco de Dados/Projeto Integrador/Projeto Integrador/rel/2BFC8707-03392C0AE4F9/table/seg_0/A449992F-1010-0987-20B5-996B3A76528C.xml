@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A449992F-1010-0987-20B5-996B3A76528C" name="T_BARBEIRO">
+<createdBy>lucal8162</createdBy>
+<createdTime>2026-10-28 16:57:23 UTC</createdTime>
+<generatorID>4122CEBB-DD0A-7B98-D998-DECAFBF5DA50</generatorID>
+<ownerDesignName>Projeto Integrador</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="T_BARBEARIA_cd_barbearia" id="E7088587-2B88-BFFC-1D37-0CB4029B56DB">
+<createdBy>lucal8162</createdBy>
+<createdTime>2026-10-28 16:57:23 UTC</createdTime>
+<generatorID>7C9C163B-E5B4-1F27-4395-9E856453F260</generatorID>
+<ownerDesignName>Projeto Integrador</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F6F9C044-02C0-0394-FF66-DCDFBC4E01E8" referredColumn="197F1CAD-D737-C5A8-0E62-B13CEF9EDC29"/>
+</associations>
+</Column>
+<Column name="cd_barbeiro" id="9F471830-042B-9381-0066-599F032C1E02">
+<createdBy>lucal8162</createdBy>
+<createdTime>2026-10-28 16:57:23 UTC</createdTime>
+<generatorID>0B59D883-B075-F313-08E3-ED41766130EA</generatorID>
+<ownerDesignName>Projeto Integrador</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_barbeiro" id="5EEBF9EB-AC3B-3F2A-A960-C69E280C4FBF">
+<createdBy>lucal8162</createdBy>
+<createdTime>2026-10-28 16:57:23 UTC</createdTime>
+<generatorID>FD41A460-28D3-A848-B6CF-857EF9B1BB4A</generatorID>
+<ownerDesignName>Projeto Integrador</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9A6169DE-3A9C-978E-FA01-A8C325307F8A" name="T_BARBEIRO_PK">
+<createdBy>lucal8162</createdBy>
+<createdTime>2026-10-28 16:57:23 UTC</createdTime>
+<generatorID>9B128604-0C51-91AC-B594-44B2B9D72D49</generatorID>
+<ownerDesignName>Projeto Integrador</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9F471830-042B-9381-0066-599F032C1E02"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D6C6961B-839B-5A32-9B96-9005A2D68AD7" name="T_BARBEIRO_T_BARBEARIA_FK">
+<createdBy>lucal8162</createdBy>
+<createdTime>2026-10-28 16:57:23 UTC</createdTime>
+<generatorID>A4220E0A-DF42-A3BF-92AC-65BF164EDA47</generatorID>
+<ownerDesignName>Projeto Integrador</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E7088587-2B88-BFFC-1D37-0CB4029B56DB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

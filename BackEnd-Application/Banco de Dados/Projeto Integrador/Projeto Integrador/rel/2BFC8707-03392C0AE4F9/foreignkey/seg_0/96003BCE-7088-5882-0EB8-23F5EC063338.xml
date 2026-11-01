@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="96003BCE-7088-5882-0EB8-23F5EC063338" containerWithKeyObject="27D30B71-D28B-6466-A130-66A164A230C2" localFKIndex="E4F70AF9-CB05-6CAD-3638-215D3DE94A4A" name="T_ATENDIMENTO_T_BARBEIRO_FK">
+<createdBy>lucal8162</createdBy>
+<createdTime>2026-10-28 16:57:23 UTC</createdTime>
+<generatorID>874F46A0-5808-2E64-241E-8FA4C4E1DC80</generatorID>
+<ownerDesignName>Projeto Integrador</ownerDesignName>
+<referredTableLongName>T_BARBEIRO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>A449992F-1010-0987-20B5-996B3A76528C</referredTableID>
+<keyObject>9A6169DE-3A9C-978E-FA01-A8C325307F8A</keyObject>
+<referredKeyID>9A6169DE-3A9C-978E-FA01-A8C325307F8A</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>cd_barbeiro</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
