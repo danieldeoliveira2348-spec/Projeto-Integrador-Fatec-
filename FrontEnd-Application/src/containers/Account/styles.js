@@ -1,0 +1,244 @@
+import styled from 'styled-components'
+
+export const AccountPage = styled.section`
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  padding: 3rem 1.25rem 2rem;
+  color: #f5ead7;
+  background: transparent;
+  scroll-margin-top: 5.5rem;
+
+  ${({ $homeLogin }) => $homeLogin && `
+    display: block;
+    min-height: 0;
+    padding: 0;
+    scroll-margin-top: 0;
+  `}
+`
+
+export const AccountCard = styled.section`
+  width: min(100%, ${({ $wide, $homeLogin }) => ($wide ? '760px' : $homeLogin ? '520px' : '460px')});
+  padding: clamp(1.5rem, 5vw, 2.5rem);
+  border: 1px solid rgba(214, 168, 79, 0.35);
+  border-radius: 8px;
+  background: #222426;
+  box-shadow: 0 25px 80px rgba(0, 0, 0, 0.28);
+
+  [role='status'] {
+    margin: 1rem 0 0;
+    color: #f4d48a;
+    font-size: 0.9rem;
+    line-height: 1.5;
+  }
+
+  [role='alert'] {
+    color: #ffb6a8;
+    line-height: 1.5;
+  }
+
+  ${({ $homeLogin }) => $homeLogin && `
+    padding: clamp(1rem, 2.5vw, 1.5rem);
+    border-color: rgba(214, 168, 79, 0.48);
+    background: rgba(34, 36, 38, 0.96);
+    box-shadow: 0 18px 48px rgba(0, 0, 0, 0.3);
+  `}
+`
+
+export const AccountNotice = styled.div`
+  padding: clamp(1rem, 3vw, 1.75rem);
+  border: 1px solid rgba(214, 168, 79, 0.3);
+  border-radius: 8px;
+  background: linear-gradient(135deg, rgba(214, 168, 79, 0.1), rgba(24, 26, 29, 0.6));
+`
+
+export const AccountActions = styled.div`
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.75rem;
+  margin-top: 1rem;
+`
+
+export const TextLink = styled.a`
+  display: inline-flex;
+  min-height: 44px;
+  align-items: center;
+  justify-content: center;
+  padding: 0.65rem 1rem;
+  border: 1px solid rgba(214, 168, 79, 0.55);
+  border-radius: 4px;
+  color: #f4d48a;
+  text-align: center;
+  text-decoration: none;
+  transition: background 0.2s ease, color 0.2s ease;
+
+  &:hover {
+    color: #20170e;
+    background: #f0c96d;
+  }
+`
+
+export const AppointmentList = styled.div`
+  display: grid;
+  gap: 0.75rem;
+  margin-top: 1.5rem;
+`
+
+export const AppointmentItem = styled.article`
+  display: grid;
+  gap: 0.3rem;
+  padding: 1rem;
+  border: 1px solid rgba(214, 168, 79, 0.28);
+  border-radius: 6px;
+  background: #181a1d;
+
+  h2 {
+    margin: 0 0 0.5rem;
+    color: #f4d48a;
+    font-size: 1rem;
+  }
+
+  p {
+    margin: 0;
+    color: #c7b9a7;
+    font-size: 0.9rem;
+    line-height: 1.45;
+  }
+`
+
+export const AppointmentActions = styled.div`
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 0.5rem;
+`
+
+export const AppointmentConfirm = styled.div`
+  display: grid;
+  gap: 0.5rem;
+  margin-top: 0.5rem;
+  padding: 0.75rem;
+  border: 1px solid rgba(214, 168, 79, 0.3);
+  border-radius: 4px;
+  background: #222426;
+`
+
+export const AppointmentDeleteButton = styled.button`
+  min-height: 38px;
+  margin-top: 0.5rem;
+  padding: 0.5rem 0.75rem;
+  border: 1px solid ${({ $secondary }) => ($secondary ? 'rgba(214, 168, 79, 0.45)' : '#9a3e36')};
+  border-radius: 4px;
+  color: ${({ $secondary }) => ($secondary ? '#f5ead7' : '#fff')};
+  background: ${({ $secondary }) => ($secondary ? 'transparent' : '#8b302b')};
+  cursor: pointer;
+  font: inherit;
+  font-size: 0.85rem;
+  font-weight: 600;
+
+  &:hover:not(:disabled) {
+    background: ${({ $secondary }) => ($secondary ? 'rgba(214, 168, 79, 0.12)' : '#a43b34')};
+  }
+
+  &:disabled {
+    cursor: not-allowed;
+    opacity: 0.65;
+  }
+`
+
+export const AppointmentSectionTitle = styled.h2`
+  margin: 1.75rem 0 0;
+  color: #f4d48a;
+  font-size: 1.2rem;
+  font-weight: 500;
+`
+
+export const AccountTitle = styled.h1`
+  margin: 0;
+  color: #f4d48a;
+  font-size: clamp(1.8rem, 6vw, 2.4rem);
+  font-weight: 500;
+`
+
+export const AccountSubtitle = styled.p`
+  margin: 0.75rem 0 2rem;
+  color: #b8aa99;
+  line-height: 1.5;
+`
+
+export const AccountForm = styled.form`
+  display: grid;
+  gap: 1rem;
+`
+
+export const FormField = styled.label`
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  color: #e4d7c4;
+  font-size: 0.9rem;
+
+  input {
+    width: 100%;
+    min-height: 48px;
+    padding: 0.75rem;
+    border: 1px solid rgba(214, 168, 79, 0.35);
+    border-radius: 4px;
+    outline: none;
+    color: #f5ead7;
+    background: #181a1d;
+    font: inherit;
+  }
+
+  input:focus {
+    border-color: #d6a84f;
+  }
+`
+
+export const SubmitButton = styled.button`
+  min-height: 48px;
+  margin-top: 0.5rem;
+  border: 0;
+  border-radius: 4px;
+  color: #20170e;
+  background: #d6a84f;
+  cursor: pointer;
+  font: inherit;
+  font-weight: 700;
+
+  &:disabled {
+    cursor: not-allowed;
+    opacity: 0.65;
+  }
+
+  &:hover {
+    background: #f0c96d;
+  }
+`
+
+export const ModeButton = styled.button`
+  margin-top: 1.25rem;
+  padding: 0.5rem 0;
+  border: 0;
+  color: #f4d48a;
+  background: transparent;
+  cursor: pointer;
+  font: inherit;
+  text-align: left;
+
+  &:disabled {
+    cursor: not-allowed;
+    opacity: 0.65;
+  }
+
+  &:hover {
+    text-decoration: underline;
+  }
+`
+
+export const RecoveryButton = styled(ModeButton)`
+  display: block;
+  margin-top: 0.25rem;
+`
